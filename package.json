@@ -6,7 +6,8 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsx scripts/build.ts",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "esbuild": "^0.27.3",
     "eslint": "^9.39.2",
     "globals": "^17.3.0",
+    "jiti": "^2.6.1",
     "prettier": "^3.8.1",
     "tsc": "^2.0.4",
     "tsx": "^4.21.0",

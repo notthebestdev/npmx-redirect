@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import vm from 'node:vm';
 
 describe("Userscript VM", () => {
-  const userscriptPath = join(process.cwd(), "dist", "index.js");
+  const userscriptPath = join(process.cwd(), "dist", "index.user.js");
   const userscriptSource = readFileSync(userscriptPath, "utf8");
 
   const runUserscript = (startUrl: string) => {

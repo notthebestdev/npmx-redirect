@@ -44,7 +44,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: false # Set to false to create a PR instead of publishing
+          publish: 'true'
           commit: 'chore: release new version'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
